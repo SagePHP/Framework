@@ -1,0 +1,549 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "ab034116e039d69d3eedfd7c30647254",
+    "packages": [
+        {
+            "name": "sagephp/configuration",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SagePHP/Configuration.git",
+                "reference": "5d922aeca6bbacffecb1648785683db238397b29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SagePHP/Configuration/zipball/5d922aeca6bbacffecb1648785683db238397b29",
+                "reference": "5d922aeca6bbacffecb1648785683db238397b29",
+                "shasum": ""
+            },
+            "require": {
+                "sagephp/filesystem": "dev-master",
+                "sagephp/ini": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SagePHP": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nuno Costa",
+                    "email": "nuno@francodacosta.com",
+                    "homepage": "http://www.francodacosta.com"
+                }
+            ],
+            "description": "abstractions for several system configuration files",
+            "homepage": "https://github.com/SagePHP",
+            "keywords": [
+                "configuration",
+                "linux",
+                "service",
+                "sytem"
+            ],
+            "time": "2013-11-16 21:49:20"
+        },
+        {
+            "name": "sagephp/filesystem",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SagePHP/Filesystem.git",
+                "reference": "c159be269a12c677466ae21878537a9bfb5d07c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SagePHP/Filesystem/zipball/c159be269a12c677466ae21878537a9bfb5d07c3",
+                "reference": "c159be269a12c677466ae21878537a9bfb5d07c3",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SagePHP": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nuno Costa",
+                    "email": "nuno@francodacosta.com",
+                    "homepage": "http://www.francodacosta.com"
+                }
+            ],
+            "description": "abstractions for common filesystem operations",
+            "homepage": "https://github.com/SagePHP",
+            "keywords": [
+                "file",
+                "filesystem",
+                "folder",
+                "linux",
+                "sytem"
+            ],
+            "time": "2013-11-16 21:22:30"
+        },
+        {
+            "name": "sagephp/ini",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SagePHP/ini.git",
+                "reference": "a59b8ff4faefcd6868d736c40187a554e66ce4b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SagePHP/ini/zipball/a59b8ff4faefcd6868d736c40187a554e66ce4b3",
+                "reference": "a59b8ff4faefcd6868d736c40187a554e66ce4b3",
+                "shasum": ""
+            },
+            "require-dev": {
+                "symfony/class-loader": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nuno Costa",
+                    "email": "nuno@francodacosta.com",
+                    "homepage": "http://www.francodacosta.com"
+                }
+            ],
+            "description": "Ini file manipulation. supports sections and comments",
+            "keywords": [
+                "configuration",
+                "ini",
+                "ini file",
+                "parser",
+                "php"
+            ],
+            "time": "2013-11-15 21:30:52"
+        },
+        {
+            "name": "sagephp/system",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SagePHP/System.git",
+                "reference": "3210ce2ea4a3f11b0b8f3dd6180e94e17aa705f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SagePHP/System/zipball/3210ce2ea4a3f11b0b8f3dd6180e94e17aa705f9",
+                "reference": "3210ce2ea4a3f11b0b8f3dd6180e94e17aa705f9",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/console": "dev-master",
+                "symfony/process": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SagePHP": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nuno Costa",
+                    "email": "nuno@francodacosta.com",
+                    "homepage": "http://www.francodacosta.com"
+                }
+            ],
+            "description": "class to abstract interaction with *nix systems",
+            "homepage": "https://github.com/SagePHP",
+            "keywords": [
+                "linux",
+                "service",
+                "sytem"
+            ],
+            "time": "2013-11-18 00:38:49"
+        },
+        {
+            "name": "sagephp/vcs",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SagePHP/VCS.git",
+                "reference": "e087aa174290ed7a663a486fbb4b66656ddad3bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SagePHP/VCS/zipball/e087aa174290ed7a663a486fbb4b66656ddad3bb",
+                "reference": "e087aa174290ed7a663a486fbb4b66656ddad3bb",
+                "shasum": ""
+            },
+            "require": {
+                "sagephp/system": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SagePHP": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nuno Costa",
+                    "email": "nuno@francodacosta.com",
+                    "homepage": "http://www.francodacosta.com"
+                }
+            ],
+            "description": "class to abstract interaction several vcs systems",
+            "homepage": "https://github.com/SagePHP",
+            "keywords": [
+                "git",
+                "linux",
+                "sytem",
+                "vcs"
+            ],
+            "time": "2013-11-16 23:32:47"
+        },
+        {
+            "name": "symfony/config",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/Config",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Config.git",
+                "reference": "a199b9784fadfe18590db3d240904b127a78e718"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Config/zipball/a199b9784fadfe18590db3d240904b127a78e718",
+                "reference": "a199b9784fadfe18590db3d240904b127a78e718",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/filesystem": "~2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Config\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Config Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-10-31 19:29:46"
+        },
+        {
+            "name": "symfony/console",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/Console",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Console.git",
+                "reference": "846e8fa8fdb5fab85cdb053b26687dd073c33051"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/846e8fa8fdb5fab85cdb053b26687dd073c33051",
+                "reference": "846e8fa8fdb5fab85cdb053b26687dd073c33051",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/event-dispatcher": "~2.1"
+            },
+            "suggest": {
+                "symfony/event-dispatcher": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Console\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-11-13 21:30:16"
+        },
+        {
+            "name": "symfony/dependency-injection",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/DependencyInjection",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/DependencyInjection.git",
+                "reference": "73cc03cc11ab6def2961e15cab2b26cde6215cb4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/DependencyInjection/zipball/73cc03cc11ab6def2961e15cab2b26cde6215cb4",
+                "reference": "73cc03cc11ab6def2961e15cab2b26cde6215cb4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/config": "~2.2",
+                "symfony/expression-language": "~2.4",
+                "symfony/yaml": "~2.0"
+            },
+            "suggest": {
+                "symfony/config": "",
+                "symfony/proxy-manager-bridge": "Generate service proxies to lazy load them",
+                "symfony/yaml": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\DependencyInjection\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony DependencyInjection Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-11-13 21:30:16"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/Filesystem",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Filesystem.git",
+                "reference": "e558fd5d593ebe083dca199f52aed5374ab7b57a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/e558fd5d593ebe083dca199f52aed5374ab7b57a",
+                "reference": "e558fd5d593ebe083dca199f52aed5374ab7b57a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-09-27 14:57:51"
+        },
+        {
+            "name": "symfony/process",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/Process",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Process.git",
+                "reference": "88ccdd7a1fb67a23fe81355c66a09d6908ebcd80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/88ccdd7a1fb67a23fe81355c66a09d6908ebcd80",
+                "reference": "88ccdd7a1fb67a23fe81355c66a09d6908ebcd80",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Process\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-11-09 12:03:12"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/Yaml",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Yaml.git",
+                "reference": "1f7cabb841e62ec49615bd965ac780fd994b3f64"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/1f7cabb841e62ec49615bd965ac780fd994b3f64",
+                "reference": "1f7cabb841e62ec49615bd965ac780fd994b3f64",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Yaml\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "http://symfony.com",
+            "time": "2013-10-17 11:48:11"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "symfony/dependency-injection": 20,
+        "symfony/yaml": 20,
+        "symfony/config": 20,
+        "sagephp/configuration": 20,
+        "sagephp/filesystem": 20,
+        "sagephp/system": 20,
+        "sagephp/vcs": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

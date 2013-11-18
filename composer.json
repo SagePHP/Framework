@@ -1,0 +1,30 @@
+{
+    "name": "sagephp/framework",
+    "type": "library",
+    "description": "the sage php devops framework",
+    "keywords": ["sytem", "linux", "service", "devops", "sage"],
+    "homepage": "https://github.com/SagePHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nuno Costa",
+            "email": "nuno@francodacosta.com",
+            "homepage": "http://www.francodacosta.com"
+        }
+    ],
+    "require": {
+        "symfony/dependency-injection": "dev-master",
+        "symfony/yaml"                : "dev-master",
+         "symfony/config"               : "dev-master",
+        "sagephp/configuration"       : "dev-master",
+        "sagephp/filesystem"          : "dev-master",
+        "sagephp/system"              : "dev-master",
+        "sagephp/vcs"                 : "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "SagePHP": "src/"
+        }
+    },
+    "minimum-stability" : "dev"
+}
